@@ -58,8 +58,10 @@ Credits
   RayCarrot - VWF (variable-width font) code used in Stafy 2
   RayCarrot, Normmatt - font graphics, tools and technical help
       (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
-  Cleanup builds, testing and packaging: Pat227-spc
-All credit goes to the translators and hackers who came before us. We have no desire to take credit for their work; we only put the pieces together. All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
+All credit goes to the translators and hackers who came before us. This is simply an assembly of their work, including the translations we used. We have no desire to take credit for it.
+All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
+Thanks: EpicSignal (spotting the World 5-3 puzzle issue).
+Source: https://github.com/Pat227-spc/stafy-source
 
 Changelog
   v1.0.1
