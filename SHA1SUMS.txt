@@ -1,0 +1,5 @@
+8ca993d292c386350ca3277f0211e109d5013515  Starfy 1 Eng v1.0.2 (STT v1.1 base).bps
+df5d790a6a273d392671db044b3b3de0be9c8609  Starfy 1 Eng v1.0.2.bps
+6d7a44f99d6500ab172396c1ae62222f9ce5e6e7  Starfy 2 Eng v0.9.5.bps
+b4e813a3696865dab50af2aacbe54c27e1bfe545  Starfy 3 Eng v1.0.3 (Dimedime v1.0 base).bps
+e82864680b24eef73e64984c4e252ceef1fd5097  Starfy 3 Eng v1.0.3.bps
