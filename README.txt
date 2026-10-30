@@ -59,7 +59,7 @@ Credits
   RayCarrot, Normmatt - font graphics, tools and technical help
       (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
   Cleanup builds, testing and packaging: Pat227-spc
-All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
+All credit goes to the translators and hackers who came before us. We have no desire to take credit for their work; we only put the pieces together. All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 
 Changelog
   v1.0.1
