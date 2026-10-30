@@ -12,11 +12,11 @@ Starfy 1 Eng v1.0.2  (Densetsu no Stafy, "Origins cleanup" v1.0.2)
          CRC32 F7CB8EE3  SHA1 79c4f1847dace4efceecff0a211cf341ad372808  MD5 43c29e64c16e26f3f0dae33120c9430d
   Result: CRC32 72AE1467  SHA1 27c69522d73a8af606f771d7bafc0cecda240baa
 
-Starfy 2 Eng v0.9.5  (Densetsu no Stafy 2)
-  Patch: "Starfy 2 Eng v0.9.5.bps"   SHA1 6d7a44f99d6500ab172396c1ae62222f9ce5e6e7
+Starfy 2 Eng v0.9.6  (Densetsu no Stafy 2)
+  Patch: "Starfy 2 Eng v0.9.6.bps"   SHA1 f5c2e3139105e075adefacb5a111c4c854f6a1f7
   Base:  Densetsu no Stafy 2 (Japan).gba, clean, 16 MiB
          CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df  MD5 0635251b85657f9c1de295546da09aeb
-  Result (expanded to 32 MiB): CRC32 2165E2C8  SHA1 bc76c940d686c4b6555be0f6c18542b04dc472da
+  Result (expanded to 32 MiB): CRC32 E29F64F8  SHA1 e86893d9b3e6dd186a8891db0b364ad54797f986
   Source: the Starfy 2 patch is built from Megahog2014's Starfy 2 translation project, which is GPL-3.0
           (github.com/Megahog2014/Densetsu_no_Starfy_2_Translation_ENG), with art from Luckylodeon98's GPL-3.0 fork.
           Our build scripts and changes are GPL-3.0 too; the source is at
@@ -52,7 +52,7 @@ Credits
       (source: starfywiki.org/wiki/Fan_translation; youtube.com/playlist?list=PLA7NjZIk-WKX6E8fTEwiEtI3XlpZy2CQm)
   Dimedime - The Legendary Starfy 3 English patch v1.0
       (source: starfywiki.org/wiki/Fan_translation)
-  Luckylodeon98 - World 5-3 fruit puzzle art and English clue chain (used as-is in Starfy 2 v0.9.5)
+  Luckylodeon98 - World 5-3 fruit puzzle art and English clue chain (used as-is in Starfy 2 since v0.9.5)
   Luckylodeon98 - Stafy 2 graphics and VWF integration (upstream fork of the Stafy 2 project); from his README:
       'VWF code by RayCarrot / Graphics by Megahog2015/Luckylodeon98 and WowJinxy / Translations supplied by SomeUselessTranslations'
   RayCarrot - VWF (variable-width font) code used in Stafy 2
@@ -60,7 +60,7 @@ Credits
       (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
 All credit goes to the translators and hackers who came before us. This is simply an assembly of their work, including the translations we used. We have no desire to take credit for it.
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
-Thanks: EpicSignal (spotting the World 5-3 puzzle issue).
+Thanks: EpicSignal (spotting the World 5-3 puzzle issue), Giantbomb64 (bug hunting: reported the World 2-1 crash).
 Source: https://github.com/Pat227-spc/stafy-source
 Sharing: Feel free to share, mirror or republish these patches anywhere, in any form. All we ask is that the original translators, contributors and modders listed above keep their credit.
 
@@ -87,10 +87,10 @@ Starfy 1 Eng v1.0.2
   Result:                            CRC32 72AE1467  SHA1 27c69522d73a8af606f771d7bafc0cecda240baa
   Patch SHA1: Starfy 1 Eng v1.0.2.bps                   df5d790a6a273d392671db044b3b3de0be9c8609
               Starfy 1 Eng v1.0.2 (STT v1.1 base).bps   8ca993d292c386350ca3277f0211e109d5013515
-Starfy 2 Eng v0.9.5
+Starfy 2 Eng v0.9.6
   Base:  Densetsu no Stafy 2 (Japan) CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df
-  Result (32 MiB):                   CRC32 2165E2C8  SHA1 bc76c940d686c4b6555be0f6c18542b04dc472da
-  Patch SHA1: Starfy 2 Eng v0.9.5.bps                   6d7a44f99d6500ab172396c1ae62222f9ce5e6e7
+  Result (32 MiB):                   CRC32 E29F64F8  SHA1 e86893d9b3e6dd186a8891db0b364ad54797f986
+  Patch SHA1: Starfy 2 Eng v0.9.6.bps                   f5c2e3139105e075adefacb5a111c4c854f6a1f7
 Starfy 3 Eng v1.0.3
   Base:  Densetsu no Stafy 3 (Japan) (Rev 1)  CRC32 2D6E4C3B  SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636
   Alt base: Dimedime v1.0 English ROM         CRC32 850B4137  SHA1 179920be4a0ae5ed60137103deca4a760811517b
@@ -118,6 +118,13 @@ please open an issue at https://github.com/Pat227-spc/stafy-patches/issues and i
 
 
 Changelog
+  v1.0.2
+    Starfy 2 v0.9.6: fixed a crash during the conversation with Ruby in World 2-1 (the screen froze when the
+      flashback started). The long English conversations in 2-1, 3-4 and 4-5 were too big for the game's text
+      buffer and could corrupt memory; the buffer is now larger. Also fixed two typos in 2-1 ("Sheesh... Alright,
+      listen!" and a missing space before "furniture"). If you play on an emulator, don't load savestates made
+      with an older version; use your in-game save instead. Thanks to Giantbomb64 for reporting the crash.
+    Starfy 1 v1.0.2 and Starfy 3 v1.0.3 are unchanged.
   v1.0.1
     Starfy 1 v1.0.2: fixed "Stafy" -> "Starfy" in Wozart's line, fixed "be used used to solve" (Old Man Lobber),
       and centered the stage names on the stage intro screens.
