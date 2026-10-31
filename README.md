@@ -9,7 +9,7 @@ Grab the patches from the [latest release](https://github.com/Pat227-spc/stafy-p
 | Game | Patch file | Japanese ROM needed |
 |---|---|---|
 | Starfy 1 (v1.0.3) | `Starfy.1.Eng.v1.0.3.bps` | Densetsu no Stafy (Japan) |
-| Starfy 2 (v0.9.6) | `Starfy.2.Eng.v0.9.6.bps` | Densetsu no Stafy 2 (Japan) |
+| Starfy 2 (v0.9.8) | `Starfy.2.Eng.v0.9.8.bps` | Densetsu no Stafy 2 (Japan) |
 | Starfy 3 (v1.0.4) | `Starfy.3.Eng.v1.0.4.bps` | Densetsu no Stafy 3 (Japan) (Rev 1) |
 
 How to patch:
@@ -35,7 +35,7 @@ Every credit below links to the creator's original release and says where we got
   - Starfy 1: [romhacking.net #7057](https://www.romhacking.net/translations/7057/) (released there September 23, 2023, per the [Starfy Wiki](https://starfywiki.org/wiki/Fan_translations_of_The_Legendary_Starfy_series)).
   - Starfy 2: [Megahog2014/Densetsu_no_Starfy_2_Translation_ENG](https://github.com/Megahog2014/Densetsu_no_Starfy_2_Translation_ENG) on GitHub (first uploaded 2024-08-30; we used the latest commit `de569ee`, dated 2024-10-24).
 - **Starfy 1 translation (Starfy Translation Team):** Higsby (original translation), pablitox (original hacking), wowjinxy (graphics: text GFX and English font), Megahog2015 (graphics), EvieMelody / EvieMelodylvsoulmate4ever (production). Same release as above: [romhacking.net #7057](https://www.romhacking.net/translations/7057/), September 23, 2023.
-- **SomeUselessTranslations (AUselessMage)** – the complete Starfy 2 script, and the script Dimedime's Starfy 3 patch is based on. Taken from their translated playthrough videos on [YouTube](https://www.youtube.com/channel/UCxEXgKEbCgTI6jsKuzNAANw): [Starfy 2 playlist](https://www.youtube.com/playlist?list=PLA7NjZIk-WKX6E8fTEwiEtI3XlpZy2CQm), [Starfy 3 playlist](https://www.youtube.com/playlist?list=PLA7NjZIk-WKU2AeHgbKGhDb7ZvQ3Y79xy) (Starfy 3 videos started in 2022, per the Starfy Wiki).
+- **SomeUselessTranslations (AUselessMage)** – the complete Starfy 2 script, and the script Dimedime's Starfy 3 patch is based on. Taken from their translated playthrough videos on [YouTube](https://www.youtube.com/channel/UCxEXgKEbCgTI6jsKuzNAANw): [Starfy 2 playlist](https://www.youtube.com/playlist?list=PLA7NjZIk-WKX6E8fTEwiEtI3XlpZy2CQm), [Starfy 3 playlist](https://www.youtube.com/playlist?list=PLA7NjZIk-WKU2AeHgbKGhDb7ZvQ3Y79xy) (Starfy 3 videos started in 2022, per the Starfy Wiki). Starfy 2 also uses their script and translator notes posted on Reddit in [r/thelegendarystarfy](https://www.reddit.com/r/thelegendarystarfy/) (for example the [post-game World 9 translation](https://www.reddit.com/r/thelegendarystarfy/comments/r2b0pc/starfy_2_post_game_world_9_translation/)); v0.9.7 and later used them for an English polish pass.
 - **Dimedime** – The Legendary Starfy 3 English patch v1.0, released in 2024. We got it from the [RetroAchievements RAPatches repository](https://github.com/RetroAchievements/RAPatches/blob/main/GBA/Translation/English/7270-DensetsunoStafy3-English.zip) (`GBA/Translation/English/7270-DensetsunoStafy3-English.zip`, added there 2024-05-19). The patch file inside is dated 2024-05-17. As far as we know, that's where it was first published; the [Starfy Wiki](https://starfywiki.org/wiki/Fan_translations_of_The_Legendary_Starfy_series) links to the same file.
 - **Luckylodeon98** – Starfy 2 graphics and VWF integration, World 5-3 fruit puzzle art and English clue chain. From [Luckylodeon98/Densetsu_no_Starfy_2_Translation_ENG](https://github.com/Luckylodeon98/Densetsu_no_Starfy_2_Translation_ENG) on GitHub (a fork of Megahog2014's project; we used commit `dbfd7cc`, dated 2026-10-15).
 - **RayCarrot** – the Starfy 2 VWF (variable-width font) code, "Starfy2 VWF Patch by RayCarrot with assistance from Normmatt". From [`asm/VWF/VWF.asm`](https://github.com/Megahog2014/Densetsu_no_Starfy_2_Translation_ENG/blob/main/asm/VWF/VWF.asm) in Megahog2014's Starfy 2 project (in its first upload, 2024-08-30). RayCarrot's GitHub: [github.com/RayCarrot](https://github.com/RayCarrot).
@@ -87,7 +87,7 @@ MD5: Starfy 1 `06ed08799b2f163076fe9fc0cfe65a4c`, STT v1.1 `43c29e64c16e26f3f0da
 |---|---|
 | Starfy.1.Eng.v1.0.3.bps | 1c91ee398cc4de3fced52857f37fdf03d0321b02 |
 | Starfy.1.Eng.v1.0.3.STT.v1.1.base.bps | 2d4d9f12b9e14218d762e02f1e20e70dfb5bf161 |
-| Starfy.2.Eng.v0.9.6.bps | f5c2e3139105e075adefacb5a111c4c854f6a1f7 |
+| Starfy.2.Eng.v0.9.8.bps | 1ed3784568471f83d406a24f06aada6b76e96764 |
 | Starfy.3.Eng.v1.0.4.bps | 59036c1955c57fb78e72fff27fdf7fe4d7d89c69 |
 | Starfy.3.Eng.v1.0.4.Dimedime.v1.0.base.bps | 7f20979a9cfa581cd0348c359f5ab813acb951ac |
 
@@ -96,7 +96,7 @@ MD5: Starfy 1 `06ed08799b2f163076fe9fc0cfe65a4c`, STT v1.1 `43c29e64c16e26f3f0da
 | Game | CRC32 | SHA1 |
 |---|---|---|
 | Starfy 1 Eng v1.0.3 | 44C2017A | 1c7ad3cd80e1ba146c88a315d22f6fb6bc17edfd |
-| Starfy 2 Eng v0.9.6 (32 MiB) | E29F64F8 | e86893d9b3e6dd186a8891db0b364ad54797f986 |
+| Starfy 2 Eng v0.9.8 (32 MiB) | 8C2D9266 | bd28fcd15cd7aebf9fb22cd77964e05d65a57d3d |
 | Starfy 3 Eng v1.0.4 | 4F31E799 | 3d46521999d1bfea130b476a877013863b02b1c5 |
 
 </details>
