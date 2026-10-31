@@ -25,6 +25,8 @@ BPS checks the base ROM, so if you pick the wrong one it will refuse to patch. S
 
 **Found a bug?** Spotted a typo, or a patch won't apply? We'd love to hear about it on [GitHub issues](https://github.com/Pat227-spc/stafy-patches/issues).
 
+**Want to build on it?** Our source is open at [stafy-source](https://github.com/Pat227-spc/stafy-source), and we'd love to see forks, improvements, or new projects built on our work. Pull requests and forks are welcome; we just ask that you keep crediting the original translators.
+
 ## Credits
 
 All credit goes to the translators and hackers who came before us. This is simply an assembly of their work, including the translations we used. We have no desire to take credit for it.
