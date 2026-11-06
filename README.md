@@ -47,7 +47,7 @@ Every credit below links to the creator's original release and says where we got
 
 Tools: armips (Kingcom and contributors), Floating IPS (Alcaro and contributors), Atlas (Klarth), LZSS (CUE), Normmatt's VWF/text insertion tool, mGBA (endrift), NanoBoyAdvance (fleroviux), VisualBoyAdvance-M, Wine, Python, NumPy, SciPy and Pillow. Full contributor lists are in [stafy-source](https://github.com/Pat227-spc/stafy-source).
 
-Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo. Box art in `boxart/` is fan-edited from the original Japanese covers; art (c) Nintendo / TOSE.
+Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo. English box art in `boxart/` is fan-edited from the original Japanese covers; art (c) Nintendo / TOSE. Japanese retail front scans are in `boxart/Japanese-originals/source/` (see the README there). They are community-hosted references, not official masters, and they are not covered by the sharing note above.
 
 **Sharing:** Feel free to share, mirror or republish these patches anywhere, in any form. All we ask is that the original translators, contributors and modders listed above keep their credit.
 
