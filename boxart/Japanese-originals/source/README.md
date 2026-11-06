@@ -19,3 +19,13 @@ SHA-256:
 - `Starfy 1 JP retail front.png` — `fb4c5d5e3b251ceb4484720169a03214c3a2a39af242178e2d7e282e2c75e88b`
 - `Starfy 2 JP retail front.jpg` — `292454000ec4675aa445a8bcbc7710dd1ef413efeb6f7950113b4ba41b023115`
 - `Starfy 3 JP retail front.jpg` — `a1d7d2c266fb7d30bcf708e2aaf764fe7b8dcf925725468a67d5789856005b36`
+
+## Download
+
+Full-resolution files in this folder:
+
+- [Starfy 1 JP retail front.png](Starfy%201%20JP%20retail%20front.png) — PNG, 2637 × 1660
+- [Starfy 2 JP retail front.jpg](Starfy%202%20JP%20retail%20front.jpg) — JPEG, 1200 × 759
+- [Starfy 3 JP retail front.jpg](Starfy%203%20JP%20retail%20front.jpg) — JPEG, 1200 × 763
+
+These are the files stored in this folder. They are on the pull request branch and are not on `main` yet.
