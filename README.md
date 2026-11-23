@@ -56,6 +56,13 @@ Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo. English box art in 
 
 If you're one of the original authors and want your name changed or removed, or your work taken out, open an issue and it will be honored promptly. No questions asked.
 
+## Box art
+
+`boxart/` has more than one English set. Choose whichever you like.
+
+- **omega_mog/taserak** – English GBA covers at the top of `boxart/` (`starfy-1-gba-box-eng.png`, `starfy-2-gba-box-eng.png`, and `starfy-3-gba-box-eng.png`). Earlier covers are in `boxart/older/`.
+- **u/ComicGamerDragon** – US-style covers and Slot cfw cart labels in `boxart/ComicGamerDragon/`. The covers were sourced by him from the LaunchBox Games Database. The cart labels were cropped and made by him for Slot's Cart Studio. Posted on r/thelegendarystarfy on November 7 and 8, 2026 ([covers and labels](https://www.reddit.com/r/thelegendarystarfy/comments/1xqnr9j/gba_starfy_covers_labels_for_launchers_frontends/), [Slot cart labels](https://www.reddit.com/r/thelegendarystarfy/comments/1xrhhmn/starfy_cart_labels_for_slot_cfw/)).
+
 ## Technical stuff
 
 **Japanese ROM CRC32**
